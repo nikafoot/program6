@@ -1,0 +1,14 @@
+#https://app.rakuten.co.jp/services/api/IchibaItem/Search/20170706?format=json&keyword={鬼滅}&applicationId=1019079537947262807
+
+#任意の商品名と価格を出力するURL
+#https://app.rakuten.co.jp/services/api/IchibaItem/Search/20170706?format=json&keyword={鬼滅}&applicationId=1019079537947262807&elements=itemName,itemPrice
+
+#任意の商品の最大価格と最小価格を出力するURL
+#https://app.rakuten.co.jp/services/api/Product/Search/20170426?format=json&keyword={鬼滅}&applicationId=1019079537947262807&elements=productName,maxPrice,minPrice
+
+#ジャンルID一覧を取得
+#https://app.rakuten.co.jp/services/api/IchibaGenre/Search/20140222?applicationId=1019079537947262807&genreId=0
+
+
+#任意のジャンルのランキング一覧を取得し、CSVに出力する
+https://app.rakuten.co.jp/services/api/IchibaItem/Ranking/20170628?format=json&applicationId=1019079537947262807&genreId=100283&elements=itemName,itemPrice
